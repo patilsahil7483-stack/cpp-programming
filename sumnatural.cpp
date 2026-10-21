@@ -9,6 +9,7 @@ cin>>a;
 for(int i=a;i>=1;i--){
 sum+=i;
 }
-cout<<"sum :"<<sum;
+cout<<"sum:"<<sum;
 return 0;
 }
+

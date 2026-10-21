@@ -9,13 +9,9 @@ cin>>a;
 while(a>0){
 b=a%10;
 rev=b+(rev*c);
-a/=10;
 c=10;
+a/=10;
 }
 cout<<"your reverse number:"<<rev;
 return 0;
 }
-
-
-
-
